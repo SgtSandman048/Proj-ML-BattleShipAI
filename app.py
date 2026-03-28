@@ -704,6 +704,16 @@ elif page == "📊 เกี่ยวกับโมเดล ML":
 
     with tab4:
         st.header("📚 แหล่งอ้างอิง ML")
+        st.subheader("🗂️ Dataset")
+        with st.container(border=True):
+            st.markdown("""
+            **Battleship Game Dataset**
+            - **ที่มา**: DataHub.io
+            - **URL**: https://github.com/cliambrown/battleship-data
+            - **เนื้อหา**: บันทึกผลจากเกม Battleship หลายหมื่นเกม
+            - **ไฟล์**: `battleship_games.csv`, `battleship_game_squares.csv`, `battleship_game_moves.csv`
+            - **License**: Open Data Commons (ODC)
+            """)
         st.subheader("📖 งานวิจัยและตำราที่อ้างอิง")
         for ref in [
             {"title": "Reinforcement Learning: An Introduction", "authors": "Sutton, R.S. & Barto, A.G. (2018)", "publisher": "MIT Press, 2nd Edition", "note": "ทฤษฎีหลักของ Q-Learning และ Bellman Equation", "url": "http://incompleteideas.net/book/the-book-2nd.html"},
@@ -900,6 +910,16 @@ elif page == "🧠 เกี่ยวกับโมเดล Neural Network":
 
     with tab4:
         st.header("📚 แหล่งอ้างอิง Neural Network")
+        st.subheader("🗂️ Dataset")
+        with st.container(border=True):
+            st.markdown("""
+            **Battleship Game Dataset**
+            - **ที่มา**: DataHub.io
+            - **URL**: https://github.com/cliambrown/battleship-data
+            - **เนื้อหา**: บันทึกผลจากเกม Battleship หลายหมื่นเกม
+            - **ไฟล์**: `battleship_games.csv`, `battleship_game_squares.csv`, `battleship_game_moves.csv`
+            - **License**: Open Data Commons (ODC)
+            """)
         st.subheader("📖 งานวิจัยหลัก DQN")
         for ref in [
             {"title": "Human-level control through deep reinforcement learning", "authors": "Mnih et al. (2015)", "publisher": "Nature, 518, 529–533", "note": "งานวิจัย DQN ต้นฉบับจาก DeepMind", "url": "https://doi.org/10.1038/nature14236"},
