@@ -3,7 +3,7 @@
 ---
 Welcome to Battleship Website. You can play with AI that will learning your stategy
 
-Check the website -> EEE
+Check the website -> [Machine Learning Model](https://proj-ml-battleship-ml-rzur75cfxgiwt4extkpp8y.streamlit.app/)
 
 This project included: 
 - Machine Learning Model (BattleShip_Website.ipynb) 
